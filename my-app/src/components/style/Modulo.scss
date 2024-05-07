@@ -1,0 +1,24 @@
+$color-base: #F6F6F6;
+$color-primary: #5f57f7;
+$color-currency-plan: blue;
+
+.container-module {
+  background-color: $color-base;
+  padding: 20px;
+  height: 240px;
+  min-width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-cancel {
+  display: flex;
+  justify-content: end;
+  color: red;
+}
+
+.container-level {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

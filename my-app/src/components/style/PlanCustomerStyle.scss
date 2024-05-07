@@ -1,0 +1,31 @@
+$color-base: #F6F6F6;
+$color-primary: #5f57f7;
+$color-currency-plan: blue;
+
+
+.container-custumer {
+  background-color: $color-base;
+  padding: 20px;
+  height: 300px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.currency-plan {
+  background-color: $color-currency-plan;
+  color: $color-base;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-change-plan {
+  background-color: $color-primary;
+  border-color: $color-primary;
+  color: $color-primary;
+  width: 100%;
+}
+
+#description {
+  height: 60px;
+}
